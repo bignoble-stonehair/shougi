@@ -75,3 +75,13 @@ def display_kyokumen(situation):
      
 display_kyokumen(situation)
 
+def isOpponent(koma):
+    if(koma > 16):
+        return True
+    else:
+        return False
+
+if(isOpponent(board[0][1])):
+    print("敵です")
+
+
